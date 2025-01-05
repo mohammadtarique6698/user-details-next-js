@@ -1,37 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# User Management Table
 
-## Getting Started
+This project is a simple web application that displays user data in a table with features like sorting, filtering, search, and pagination.
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next.js
+- Shadcn
+- TanStack Query
+- TanStack Table
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Running the Project Locally
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mohammadtarique6698/user-details-next-js
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+2. Install dependencies:
+   ```bash
+      Copy code
+      npm install
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+3. Run the development server:
+   ```bash
+      Copy code
+      npm run dev
+      Open http://localhost:3000 in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Approach
+1. Used TanStack Query for efficient data fetching and caching.
+2. TanStack Table was utilized for creating a responsive and interactive table.
+3. Implemented sorting, filtering, and pagination features.
+4. Used Shadcn for UI components and styling.
 
 ## Deploy on Vercel
 
